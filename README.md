@@ -20,7 +20,7 @@ Before you use Docker for the **first time**, run (in the `frontend/` directory)
 
 ```
 cd frontend
-npm install
+# npm install # i hope not needed
 cd ..
 ```
 
@@ -41,11 +41,14 @@ docker-compose up --build
 
 ### 4. Access the App
 
-- **Frontend (React):**  
-  [http://localhost:5173](http://localhost:5173)
 
 - **Backend API docs (FastAPI):**  
   [http://localhost:8000/docs](http://localhost:8000/docs)
+
+> [!NOTE]
+> This i suppose not needed
+- **Frontend (React):**  
+  [http://localhost:5173](http://localhost:5173)
 
 ---
 
