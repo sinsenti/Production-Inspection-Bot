@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  botapi:
+    build: .
+    volumes:
+      - ./static:/app/static
+      - ./local.db:/app/local.db
+    ports:
+      - "8000:8000"
