@@ -12,6 +12,7 @@ A fullstack application for production equipment and cleanliness inspections, wi
 ```
 git clone https://github.com/sinsenti/Production-Inspection-Bot.git
 cd Production-Inspection-Bot
+git checkout sergey
 ```
 
 ### 2. Install Frontend Dependencies
