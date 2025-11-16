@@ -7,7 +7,7 @@ services:
       - ./production_inspection_bot/local.db:/app/local.db
     ports:
       - "8000:8000"
-    restart: always
+    restart: never
   frontend:
     build: ./frontend
     ports:
